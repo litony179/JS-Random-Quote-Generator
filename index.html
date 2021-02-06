@@ -10,13 +10,32 @@
 
     <!-- font Awsome link -->
     <script src="https://kit.fontawesome.com/7a5bc4049a.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Quote generator</title>
 </head>
 
 <body>
-    <h1>Hello World</h1>
-    <p>Hello</p>
-    <i class="fab fa-500px"></i>
+    <div class="quote-container" id="quote-container">
+        <!-- Quote element -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">Privacy and security are those things you give up when you show the world what makes you extraordinary.</span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author">Margaret Cho</span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
